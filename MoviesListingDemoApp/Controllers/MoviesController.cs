@@ -51,10 +51,13 @@ public class MoviesController : Controller
     /// <param name="genre"></param>
     /// <returns></returns>
     [HttpPut("{id}")]
-    public async Task<IActionResult> AddToGenres(string id, [FromBody] string genre)
+    public async Task<IActionResult> AddToGenres(string id, [FromBody] string title)
     {
+        await _mongoDBService.UpdateGenre(id, title);
         return Ok();
+        
     }
+
 
     /// <summary>
     /// Delete an existing document in the collection
