@@ -1,3 +1,8 @@
+# Notice: Repository Deprecation
+This repository is deprecated and no longer actively maintained. It contains outdated code examples or practices that do not align with current MongoDB best practices. While the repository remains accessible for reference purposes, we strongly discourage its use in production environments.
+Users should be aware that this repository will not receive any further updates, bug fixes, or security patches. This code may expose you to security vulnerabilities, compatibility issues with current MongoDB versions, and potential performance problems. Any implementation based on this repository is at the user's own risk.
+For up-to-date resources, please refer to the [MongoDB Developer Center](https://mongodb.com/developer).
+
 ## Introduction
 Welcome to this MongoDB and ASP.Net Core Web App workshop.
 The workshop focuses on demonstrating how Microsoft Azure and MongoDB Atlas can work together and integrate effectively. The participants will get hands-on experience with both platforms. This involves setting up environments, creating a cloud database, deploying an application on Azure App Service. The goal is to provide practical knowledge and ensure participants feel comfortable using these technologies.
